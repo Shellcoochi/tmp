@@ -1,3 +1,5 @@
+单点登陆   https://www.jianshu.com/p/75edcc05acfd        SSO     OAuth2 
+Hadoop
 config-overrides.js  全局配置带来的坑 太卡了
  'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate'
 socket.io
