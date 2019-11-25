@@ -4,6 +4,8 @@ config-overrides.js  全局配置带来的坑 太卡了
  'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate'
 socket.io
 尾调用优化：目前只有 Safari 浏览器支持尾调用优化，ES6 的尾调用优化只在严格模式下开启，正常模式是无效的
+Airflow
+OSS
 ============================================
 BLOG UI 参考 :https://www.17sucai.com/pins/demo-show?id=16902
 spring boot https://blog.csdn.net/weixin_36468769/article/details/79368499
