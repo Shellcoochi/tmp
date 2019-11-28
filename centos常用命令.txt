@@ -1,0 +1,3 @@
+查看当前系统版本：cat /etc/redhat-release
+查看mysql版本：rpm -qa | grep -i mysql
+查看mysql运行状态：service mysqld status
