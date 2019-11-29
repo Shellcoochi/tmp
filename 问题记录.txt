@@ -6,6 +6,8 @@ socket.io
 尾调用优化：目前只有 Safari 浏览器支持尾调用优化，ES6 的尾调用优化只在严格模式下开启，正常模式是无效的
 Airflow
 OSS
+nginx设置超时时间
+session 登陆 和token登陆
 ============================================
 BLOG UI 参考 :https://www.17sucai.com/pins/demo-show?id=16902
 spring boot https://blog.csdn.net/weixin_36468769/article/details/79368499
