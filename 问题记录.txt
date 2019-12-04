@@ -11,3 +11,11 @@ session 登陆 和token登陆
 ============================================
 BLOG UI 参考 :https://www.17sucai.com/pins/demo-show?id=16902
 spring boot https://blog.csdn.net/weixin_36468769/article/details/79368499
+=====================================================
+ 打包是一个将文件引入并合并到一个单独文件的过程，最终形成一个 “bundle”。 接着在页面上引入该 bundle，整个应用即可一次性加载。
+
+react 修改端口：https://newsn.net/say/create-react-app-port.html
+
+session的存储
+
+react 高阶用法
