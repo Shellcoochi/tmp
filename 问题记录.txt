@@ -22,3 +22,7 @@ react ¸ß½×ÓÃ·¨
 
 git.io    https://blog.csdn.net/weixin_43172830/article/details/100530428
 		https://www.jianshu.com/p/925fa86ccc95
+
+MQ
+
+redis:https://segmentfault.com/a/1190000015882650
