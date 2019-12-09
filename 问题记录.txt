@@ -18,7 +18,7 @@ react 修改端口：https://newsn.net/say/create-react-app-port.html
 
 session的存储
 
-react 高阶用法
+
 
 git.io    https://blog.csdn.net/weixin_43172830/article/details/100530428
 		https://www.jianshu.com/p/925fa86ccc95
@@ -26,3 +26,11 @@ git.io    https://blog.csdn.net/weixin_43172830/article/details/100530428
 MQ
 
 redis:https://segmentfault.com/a/1190000015882650
+
+impala:https://downloads.cloudera.com/demo_vm/vmware/cloudera-quickstart-vm-5.13.0-0-vmware.zip
+双线部署：https://www.ieclipse.cn/2016/08/29/Web/Hexo-deploy-lines/
+=====================================================================
+
+react 高阶用法  ：
+-----代码分割
+	React.lazy Suspense；基于路由的代码分割
