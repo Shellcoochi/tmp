@@ -17,13 +17,13 @@ spring boot https://blog.csdn.net/weixin_36468769/article/details/79368499
 react 修改端口：https://newsn.net/say/create-react-app-port.html
 
 session的存储
-
-
-
+压力测试：jemter
+websotrm激活码：http://lookdiv.com/
 git.io    https://blog.csdn.net/weixin_43172830/article/details/100530428
 		https://www.jianshu.com/p/925fa86ccc95
 
 MQ
+触发器
 
 redis:https://segmentfault.com/a/1190000015882650
 
@@ -31,6 +31,16 @@ impala:https://downloads.cloudera.com/demo_vm/vmware/cloudera-quickstart-vm-5.13
 双线部署：https://www.ieclipse.cn/2016/08/29/Web/Hexo-deploy-lines/
 =====================================================================
 
-react 高阶用法  ：
+react 高阶用法  ：扩展-----   Diffing 算法
 -----代码分割
 	React.lazy Suspense；基于路由的代码分割
+-----Context
+	注意事项；Consumer与contextType
+-----refs
+-----Fragments
+	key
+-----高阶组件    参考：https://www.jianshu.com/p/5dea58b49d0e
+	设计模式HOC;属性代理和反向继承；应用：https://blog.csdn.net/fengzijinliang/article/details/80668962
+-----与第三方库协同
+-----性能优化
+-----Portals
