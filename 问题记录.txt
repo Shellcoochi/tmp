@@ -29,6 +29,10 @@ redis:https://segmentfault.com/a/1190000015882650
 
 impala:https://downloads.cloudera.com/demo_vm/vmware/cloudera-quickstart-vm-5.13.0-0-vmware.zip
 双线部署：https://www.ieclipse.cn/2016/08/29/Web/Hexo-deploy-lines/
+
+父类的mouse事件会应用到子类上？？？？？事件捕获和事件冒泡
+lua
+静态类型语言和动态类型语言
 =====================================================================
 
 react 高阶用法  ：扩展-----   Diffing 算法
@@ -43,4 +47,7 @@ react 高阶用法  ：扩展-----   Diffing 算法
 	设计模式HOC;属性代理和反向继承；应用：https://blog.csdn.net/fengzijinliang/article/details/80668962
 -----与第三方库协同
 -----性能优化
------Portals
+-----Portals  插槽
+-----协调  &&性能优化
+-----Render Props     与HOC结合使用
+-----严格模式
