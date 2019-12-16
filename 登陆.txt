@@ -1,0 +1,35 @@
+实现登录状态保持的两种方法 cookie、session和token：
+	https://blog.csdn.net/niuxitong/article/details/101186326
+	https://blog.csdn.net/qq_37261367/article/details/81387107
+	https://blog.csdn.net/weixin_42030357/article/details/95629924
+	***** https://www.jianshu.com/p/2036987a22fb
+		https://blog.csdn.net/u010525694/article/details/89052608
+	RS256（非对称算法） 和HS256（对称算法）
+	jsonwebtoken option 参数设置
+	{
+		algorithm：加密算法（默认值：HS256）
+
+expiresIn：以秒表示或描述时间跨度zeit / ms的字符串。如60，		"2 days"，"10h"，"7d"，
+		Expiration time，过期时间
+
+
+		notBefore：以秒表示或描述时间跨度zeit / ms的字符串。如：60，"2days"，"10h"，"7d"
+
+
+		audience：Audience，观众
+		
+
+issuer：Issuer，发行者
+
+
+		jwtid：JWT ID
+		
+
+subject：Subject，主题
+
+
+		noTimestamp
+
+
+		header
+	}
