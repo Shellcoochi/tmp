@@ -7,29 +7,18 @@
 	RS256（非对称算法） 和HS256（对称算法）
 	jsonwebtoken option 参数设置
 	{
-		algorithm：加密算法（默认值：HS256）
-
-expiresIn：以秒表示或描述时间跨度zeit / ms的字符串。如60，		"2 days"，"10h"，"7d"，
-		Expiration time，过期时间
-
-
-		notBefore：以秒表示或描述时间跨度zeit / ms的字符串。如：60，"2days"，"10h"，"7d"
-
-
-		audience：Audience，观众
-		
-
+algorithm：加密算法（默认值：HS256）
+expiresIn：以秒表示或描述时间跨度zeit / ms的字符串。如60，"2 days"，"10h"，"7d"，含义是：过期时间
+notBefore：以秒表示或描述时间跨度zeit / ms的字符串。如：60，"2days"，"10h"，"7d"
+audience：Audience，观众
 issuer：Issuer，发行者
-
-
-		jwtid：JWT ID
-		
-
+jwtid：JWT ID
 subject：Subject，主题
-
-
-		noTimestamp
-
-
-		header
+noTimestamp
+header
 	}
+
+验证token 异常类型https://segmentfault.com/a/1190000009494020?utm_source=tag-newest
+封装axios：https://www.jianshu.com/p/8cbbcd2fdb0c        https://www.jianshu.com/p/43fc396b2fa7
+
+react学习笔记之react-router4.x中JS路由跳转:https://www.jianshu.com/p/472802da93d7
