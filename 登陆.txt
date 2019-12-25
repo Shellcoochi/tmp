@@ -22,3 +22,16 @@ header
 封装axios：https://www.jianshu.com/p/8cbbcd2fdb0c        https://www.jianshu.com/p/43fc396b2fa7
 
 react学习笔记之react-router4.x中JS路由跳转:https://www.jianshu.com/p/472802da93d7
+
+cytoscape :   https://blog.csdn.net/dahaiaixiaohai/article/details/89669526
+
+
+使用 fileList 对列表进行完全控制，可以实现各种自定义功能，以下演示三种情况
+
+需要前端展示文本编辑历史, 并做 diff.文本对比三个库, 分别是: CodeMirror, DiffMatchPatch, Mergely
+https://blog.csdn.net/weixin_34272308/article/details/91962907
+
+文本对比参考：https://blog.csdn.net/weixin_34272308/article/details/91962907
+
+react cron 生成器：https://www.npmjs.com/package/react-cron-builder
+	https://www.cnblogs.com/fenghh/p/10287998.html
