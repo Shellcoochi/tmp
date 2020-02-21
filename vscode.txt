@@ -7,3 +7,15 @@
     "javascript.implicitProjectConfig.experimentalDecorators": true,
     "javascript.validate.enable": false,
 }
+
+@installed
+Atom One Dark Theme
+Auto Import
+HTML CSS Support
+HTML Snippets
+Path Autocomplete
+Path Intellisense
+React Redux ES6 Snippets
+Reactjs code snippets
+vscode-elm-jump
+vscode-icons
