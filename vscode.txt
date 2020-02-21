@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontSize": 17,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "vscode-icons",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "javascript.validate.enable": false,
+}
