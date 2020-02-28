@@ -1,0 +1,9 @@
+any 类型 ：
+	变量值动态改变为任意类型时，可以让这些变量跳过编译阶段的类型检查
+
+可以用 | 来支持多种类型：
+	 let x: number|string|boolean = false;
+
+TypeScript 遵循强类型
+
+antd:button:=>http://react-china.org/t/antd-button/10061
