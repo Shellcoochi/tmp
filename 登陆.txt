@@ -43,3 +43,6 @@ oauth2
 
 antd  Cascader 动态生成，动态加载   bug 
 three.js
+
+
+npm install --global --production windows-build-tools
