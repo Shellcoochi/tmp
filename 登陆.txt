@@ -46,3 +46,6 @@ three.js
 
 
 npm install --global --production windows-build-tools
+
+服务端渲染和客户端渲染
+路由两种模式：history和hash；【browser, hash, memory】
