@@ -85,3 +85,5 @@ Forwarding Refs
 
 Blink引擎；主资源和派生资源
 web缓存：强缓存和协商缓存
+
+node-gyp安装:https://www.cnblogs.com/jixiaohua/p/12189713.html
