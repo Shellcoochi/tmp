@@ -1,0 +1,46 @@
+ /**
+   * 打开摄像头
+   */
+  openVideo = ()=>{
+    navigator.getUserMedia ||
+    (navigator.getUserMedia = navigator.mozGetUserMedia ||  navigator.webkitGetUserMedia || navigator.msGetUserMedia);
+    if (navigator.getUserMedia) {
+      message.success('支持人脸识别')
+      navigator.getUserMedia({//获取摄像头权限
+        video: true
+      }, this.onSuccess, this.onError); //参数1获取用户打开权限；参数二成功打开后调用，并传一个视频流对象，参数三打开失败后调用，传错误信息
+    } else {
+      message.error('您的浏览器不支持该功能')
+    }
+  }
+  /**
+   * 获取摄像头权限成功的回调函数
+   */
+  onSuccess = (stream)=>{
+    message.success('获取摄像头权限成功')
+    let video = document.getElementById('webcam');
+    if (window.URL) {
+      video.src = window.URL.createObjectURL(stream);//video组件绑定摄像头数据流
+    } else {
+      video.src = stream;
+    }
+    video.autoplay = true;
+  }
+  onError = (e)=>{
+    message.error('获取权限失败('+e+')');
+  }
+  /**
+   * 人脸识别拍照
+   */
+  takePhoto = ()=>{
+    let canvas = document.getElementById("canvas"); //获取Canvas对象
+    let video = document.getElementById("video");//获取video对象
+    let ctx = canvas.getContext('2d');
+    try{
+      ctx.drawImage(video, 0, 0, 500, 500);//绘制照片
+      let url = canvas.toDataURL();
+      console.log(url);
+    }catch (e) {
+      message.error('请确保摄像头已成功打开！');
+    }
+  }
