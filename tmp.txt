@@ -1,4 +1,4 @@
-1.viewpoint是什么
+1.viewpoint是什么   viewport meta tag，CSS media queries，Flexbox，和 CSS Grid
 2.解释Flex布局，为什么要确定主轴方向，缩小倍数有什么用
 3.怎么理解CSS剩余空间
 4.盒模型
