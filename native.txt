@@ -1,1 +1,0 @@
-npm i -g expo-cli@3.5.0

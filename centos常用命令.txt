@@ -1,9 +1,0 @@
-查看当前系统版本：cat /etc/redhat-release
-查看mysql版本：rpm -qa | grep -i mysql
-查看mysql运行状态：service mysqld status
-==========================
-路径启动,默认在/usr/local/nginx/sbin/nginx
-启动：/usr/local/nginx/sbin/nginx
-平滑重启：/usr/local/nginx/sbin/nginx -s reload
-停止：/usr/local/nginx/sbin/nginx -s stop
-重启：/usr/local/nginx/sbin/nginx -s restart
