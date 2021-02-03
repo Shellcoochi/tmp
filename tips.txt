@@ -68,6 +68,7 @@ vibrancy
 翻墙：googlehelper.net
 ========================================
 可视化工程师技术栈：GIS、WebGL、Node.js、React、Electron、UE4/Unity  
-
-============
+=========================================
 package.lock
+==========================================
+能提供完善的WebApp和混合App（JS方向）技术方案，了解服务端（node/java或其他语言）或native移动应用开发，有类reactnative开发经验者优先
