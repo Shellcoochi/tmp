@@ -68,3 +68,6 @@ vibrancy
 翻墙：googlehelper.net
 ========================================
 可视化工程师技术栈：GIS、WebGL、Node.js、React、Electron、UE4/Unity  
+
+============
+package.lock
