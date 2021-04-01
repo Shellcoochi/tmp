@@ -1,3 +1,10 @@
 https://www.jianshu.com/p/ec4077fe9951   vscode主题
 
 https://eyhn.in/
+
+图片问题如何引入，第三方组件中的图片如何处理
+
+localStorage window 等对象的使用
+
+首屏渲染调用接口问题 服务端渲染：getServerSideProps 此方法在服务端运行所以不会走代理 
+注意部分接口在服务端调用还是在客户端调用
