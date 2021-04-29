@@ -98,3 +98,5 @@ package.lock
 dotenv
 ======================
 cc攻击https://www.cnblogs.com/wpjamer/p/9030259.html   线程驱动与事件驱动
+=================
+心跳检测机制
