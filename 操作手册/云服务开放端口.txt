@@ -1,1 +1,19 @@
 进入控制台安全组增加相应端口，在服务器防火墙开通相应端口并重启防火墙
+
+
+查看当前已经开放的端口：
+
+firewall-cmd --list-ports
+开启端口，以8888为例：
+
+firewall-cmd --zone=public --add-port=8888/tcp --permanent
+重启防火墙：
+
+firewall-cmd --reload
+其他指令：
+
+# 关闭防火墙
+firewall systemctl stop firewalld.service
+
+# 关闭防火墙开机启动
+firewall sustemctl disable firewalld.service
