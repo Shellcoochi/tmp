@@ -2,3 +2,4 @@
 	开机启动docker服务：systemctl enable docker.service
 2、下载jenkins镜像：
 	docker pull jenkinsci/blueocean   （官方推荐镜像）
+	查看已下载的镜像：docker images
