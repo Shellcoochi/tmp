@@ -1,2 +1,4 @@
 1、安装docker  https://docs.docker.com/engine/install/centos/
-
+	开机启动docker服务：systemctl enable docker.service
+2、下载jenkins镜像：
+	docker pull jenkinsci/blueocean   （官方推荐镜像）
