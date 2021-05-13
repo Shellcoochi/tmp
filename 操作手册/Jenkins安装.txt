@@ -21,3 +21,5 @@
   jenkinsci/blueocean
 
 3、自动构建https://blog.csdn.net/weixin_44864748/article/details/107904964
+	jenkins 安装node插件   
+	jenkins安装 Publish Over SSH（为了将打包的前端项目发送到宿主机上）
