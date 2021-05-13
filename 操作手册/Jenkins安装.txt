@@ -1,5 +1,21 @@
 1、安装docker  https://docs.docker.com/engine/install/centos/
 	开机启动docker服务：systemctl enable docker.service
+	运行容器命令：sudo docker run hello-world
+	进入容器命令：docker exec -it a8fea7cee1f1 /bin/bash
+	退出容器：exit
+	查看镜像：docker images
+	查看运行中的容器： docker ps
+	查看所有容器： docker ps -a
 2、下载jenkins镜像：
 	docker pull jenkinsci/blueocean   （官方推荐镜像）
 	查看已下载的镜像：docker images
+使用以下docker run 命令将其作为Docker中的容器运行 
+	docker run \
+  -u root \
+  --rm \
+  -d \
+  -p 8080:8080 \
+  -p 50000:50000 \
+  -v jenkins-data:/var/jenkins_home \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  jenkinsci/blueocean
