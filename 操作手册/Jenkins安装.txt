@@ -19,3 +19,5 @@
   -v jenkins-data:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
   jenkinsci/blueocean
+
+3、自动构建https://blog.csdn.net/weixin_44864748/article/details/107904964
