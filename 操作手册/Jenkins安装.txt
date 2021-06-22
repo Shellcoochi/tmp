@@ -1,3 +1,5 @@
+nginx启动：./nginx  nginx重启 ： ./nginx -s reload
+
 1、安装docker  https://docs.docker.com/engine/install/centos/
 	开机启动docker服务：systemctl enable docker.service
 	运行容器命令：sudo docker run hello-world
@@ -24,3 +26,5 @@
 	jenkins 安装node插件   
 	jenkins安装 Publish Over SSH（为了将打包的前端项目发送到宿主机上）
 	进入jenkins系统设置配置Publish Over SSH
+
+Pipeline:Job
